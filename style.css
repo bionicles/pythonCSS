@@ -1,5 +1,5 @@
 *{
-	text-align: center;
+	font-family: sans-serif;
 }
 
 #container {
@@ -7,7 +7,7 @@
 }
 
 #logo {
-	margin: 25px 15px 15px 25px;
+	margin: 15px 15px 15px 30px;
 	width: 30%;
 	display: inline-block;
 	vertical-align: top;
@@ -16,25 +16,35 @@
 .textsize{
 	color: white;
 	position: relative;
-	top: 20px;
+	top: 5px;
 	right: 40px;
 	text-align: right;
+	font-size: 12px;
 }
 
 .textsize span{
 	text-decoration: underline;
 	color: yellow;
+	font-style: normal;
 }
 
 #search {
 	display: inline-block;
 	position: relative;
 	vertical-align: middle;
-	left: 30px;
-	background-color: black;
-	padding: 10px 60px 10px 30px;
-	margin: 25px 15px 15px 25px;
-	border-radius: 10px;
+	/*text-align: middle;*/
+	left: 225px;
+	bottom: 15px;
+	background-color: #8E8E8E;
+	padding: 10px 30px 10px 30px;
+	margin: 25px 10px 15px 25px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 2px;
+}
+
+textarea {
+	text-align:center;
+	vertical-align: middle;
 }
 
 #navbar{
@@ -44,15 +54,18 @@
 	margin-left: 55px;
 	margin-right: 25px;
 	box-shadow: 0px 3px 3px 0px;
-	/*text-align: justify;*/
+	text-align: center;
 	font: arial;
 }
 
 .navElem{
-	display: inline;
-	margin: auto;
+	display: inline-block;
+	margin: 2%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	color: white;
-	/*text-align: justify;*/
+	font: arial;
+	font-size: 20px;
 }
 
 .navlist{
@@ -105,7 +118,16 @@ li{
 	/*vertical-align: top;*/
 	margin: auto;
 	width: 40%;
-	border: 1px solid silver;
+	/*border: 1px solid silver;*/
+}
+
+#getting p{
+	font-size: 12px;
+}
+
+#getting p:first-child{
+	font-size: 20px;
+	font-weight: bold;
 }
 
 #applications{
@@ -113,21 +135,33 @@ li{
 	vertical-align: top;
 	width: 40%;
 	margin: 0 0 0 10px;
-	border: 1px solid silver;
+	/*border: 1px solid silver;*/
+}
+
+#applications p{
+	font-size: 12px;
+}
+
+#applications p:first-child{
+	font-size:20px;
+	font-weight: bold;
+	font: verdana;
 }
 
 .blue{
 	color: lightblue;
+	font-size: 12px;
 }
 
 #bot > div{
 	text-align: center;
+	font-size: 14px;
 }
 
 #botbar > div{
-	display: inline;
+	display: inline-block;
 	text-align: center;
-	margin: 10px;
+	margin: 20px;
 	color: lightblue;
 }
 
